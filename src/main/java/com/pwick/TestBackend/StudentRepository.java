@@ -1,6 +1,6 @@
 package com.pwick.TestBackend;
 
-//@Repository
-//public interface StudentRepository extends JpaRepository<Student, Integer> {
-//
-//}
+import org.springframework.data.jpa.repository.JpaRepository;
+public interface StudentRepository extends JpaRepository<Student, Integer> {
+
+}
